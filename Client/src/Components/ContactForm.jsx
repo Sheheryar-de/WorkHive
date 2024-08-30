@@ -20,7 +20,7 @@ function ContactForm({ title, desc, align }) {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:5000/send-email",
+        "https://work-hive-delta.vercel.app/send-email",
         formData
       );
       console.log("🚀 ~ handleSubmit ~ response:", response);
