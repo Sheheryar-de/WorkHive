@@ -22,7 +22,7 @@ const Navbar = () => {
     } else {
       setActiveTab("home");
     }
-  }, [location.pathname]); // Update activeTab whenever the path changes
+  }, [location.pathname]);
 
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => setIsModalOpen(false);
@@ -32,7 +32,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="flex justify-between items-center h-[74px]">
           <div className="h-[auto] w-[150px] lg:w-auto">
-            <img className="" src={Logo} alt="Logo" />
+            <img className="" src={Logo} alt="Logo" loading="eager" />
           </div>
           <div className="hidden md:flex md:flex-1 md:items-center md:justify-center">
             <Link
