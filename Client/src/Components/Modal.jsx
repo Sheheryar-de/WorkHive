@@ -71,11 +71,11 @@ const Modal = ({ isOpen, onClose }) => {
   return ReactDOM.createPortal(
     <div className="fixed inset-0 flex items-center justify-center z-50">
       <div className="absolute inset-0 bg-black opacity-50"></div>
-      <div className="relative bg-white rounded-lg overflow-y-scroll shadow-lg h-[500px] md:h-max w-auto md:w-full md:max-w-3xl">
+      <div className="hide-scrollbar relative bg-white rounded-lg overflow-y-scroll shadow-lg h-[500px] md:h-[570px] w-auto md:w-full md:max-w-3xl">
         <div className="flex justify-between items-center p-4 border-b">
           <h2
             style={{ fontFamily: "FontSemi" }}
-            className={`text-xl md:text-[30px] font-semibold mb-4`}
+            className={`text-xl md:text-[30px] font-semibold`}
           >
             Get In Touch
           </h2>
@@ -100,10 +100,10 @@ const Modal = ({ isOpen, onClose }) => {
             </svg>
           </button>
         </div>
-        <div className="p-4">
+        <div className="px-4">
           <form
             onSubmit={handleSubmit}
-            className={`space-y-8 mx-auto max-w-full p-10`}
+            className={`space-y-8 mx-auto max-w-full px-10 pt-6`}
           >
             <div className="mb-4 flex flex-col md:flex-row gap-10">
               <input

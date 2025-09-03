@@ -1,6 +1,6 @@
 import BannerSec from "../Components/BannerSec";
-import bgImage from "../assets/images/HeroImage.png";
-import workImg from "../assets/images/WorkImg.png";
+import bgImage from "../assets/images/HeroImage.webp";
+import workImg from "../assets/images/WorkImg.webp";
 import OfferCard from "../Components/OfferCard";
 import Services from "../Components/Services";
 import service1 from "../assets/service1.svg";
@@ -16,7 +16,7 @@ import service10 from "../assets/service10.svg";
 import service11 from "../assets/service11.svg";
 import service12 from "../assets/service12.svg";
 import ContactForm from "../Components/ContactForm";
-import contactImg from "../assets/images/ContactImg.jpg";
+import contactImg from "../assets/images/ContactImg.webp";
 import Img1 from "../assets/serviceLogo1.svg";
 import Img2 from "../assets/serviceLogo2.svg";
 import Img3 from "../assets/serviceLogo3.svg";
@@ -197,7 +197,7 @@ function Home() {
         start building the perfect environment for your success."
           />
           <img
-            className="h-[500px] w-[460px] rounded-3xl shadow-custom"
+            className="h-[500px] w-[460px] rounded-3xl shadow-custom "
             src={contactImg}
             alt="Office Image"
           />

@@ -21,3 +21,12 @@
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
   }
 }
+
+.hide-scrollbar {
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; 
+}

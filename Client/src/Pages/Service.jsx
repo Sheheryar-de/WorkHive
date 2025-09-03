@@ -1,9 +1,8 @@
-import React from "react";
 import BannerSec from "../Components/BannerSec";
-import bgImage from "../assets/images/ServiceImage.jpg";
-import ServiceImg1 from "../assets/images/serviceImg.png";
-import ServiceImg2 from "../assets/images/serviceImg1.png";
-import ServiceImg3 from "../assets/images/serviceImg2.jpg";
+import bgImage from "../assets/images/ServiceImage.webp";
+import ServiceImg1 from "../assets/images/serviceImg.webp";
+import ServiceImg2 from "../assets/images/serviceImg1.webp";
+import ServiceImg3 from "../assets/images/serviceImg2.webp";
 import OfferedServices from "../Components/OfferedServices";
 
 function Service() {

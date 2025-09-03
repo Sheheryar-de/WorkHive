@@ -1,6 +1,6 @@
 import BannerSec from "../Components/BannerSec.jsx";
 import SubscriptionPlanCard from "../Components/SubscriptionPlanCard.jsx";
-import bgImage from "../assets/images/PlanImage.jpg";
+import bgImage from "../assets/images/PlanImage.webp";
 import LocationLogo from "../assets/locationLogo.svg";
 import ChatLogo from "../assets/chatLogo.svg";
 import { useState } from "react";
